@@ -43,7 +43,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3">
                         <div class="logo">
-                            <a href="#">Minjamin <span >.</span></a>
+                            <a href="#">Minjamin<span>.</span></a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
@@ -86,8 +86,8 @@
                     <div class="col-lg-6">
                         <div class="welcome_area">
                             <div class="welcome_text">
-                                <h1>Business loan no hidden charge.</h1>
-                                <p>We are here to help you when you need your financial support, then we are help you.</p>
+                                <h1>Solusi Pinjaman Terpercaya</h1>
+                                <p>Sekarang pinjaman untuk mahasiswa dapat berjalan dengan cepat. Dapatkan pinjaman terpercaya untuk biaya pendidikan anda.</p>
                             </div>
                             <div class="welcome_button">
                                 <a href="#" class="common_btn">Contact Us</a>
@@ -108,11 +108,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="sec_title">We provide awesome <br>services, it’s here.</h2>
-                        <p class="sec_desc">
+                        <h2 class="sec_title">Kenapa Harus Pinjam di Jasa Kami</h2>
+                        {{-- <p class="sec_desc">
                             Simply import the sample files we ship with the theme and the core structure for your site is already<br>
                             mind that even if you don’t use the demo content, you’ll be much better off than with most other
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
                 <div class="row">
@@ -163,12 +163,10 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="serviceArea">
-                            <h3>Manager will contact you to clear the details.</h3>
+                            {{-- <h3>Manager will contact you to clear the details.</h3> --}}
                             <p>
-                                Simply import the sample files we ship with the them
-                                award winning car loans with payloan. the core and
-                                structure for your site already minde that and even
-                                if you don’t use the demo content.
+                                Minjemin merupakan aplikasi berbasis web yang disediakan untuk 
+                                mahasiswa dalam rangka untuk memudahkan 
                             </p>
                             <p>
                                 The core structure for your site already mind that and
@@ -263,18 +261,15 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="serviceArea">
-                            <h3>Award winning car loans with payloan.</h3>
+                            <h3>Ajukan Pembiayaan Pendidikanmu</h3>
                             <p>
-                                It doesn’t matter you want touse solid image pattern
-                                one of your favorite images across the entire backgr
-                                your site lets you upload or choose an image or color
-                                and instantly shows the changes.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra faucibus morbi netus risus, purus mauris, purus bibendum. Urna dolor, ultrices velit odio diam enim arcu, eget nisl. Blandit mauris sodales dui, sed a. Quis.
                             </p>
-                            <h5>
+                            {{-- <h5>
                                 One of your favorite are images across the enter
                                 your site lets you upload orem choose an image
                                 and instantly shows the changes.
-                            </h5>
+                            </h5> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -289,7 +284,7 @@
         </section>
         <!-- Common section -->
         <!-- Common section -->
-        <section class="commonSection teamProcess">
+        {{-- <section class="commonSection teamProcess">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -434,10 +429,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Common section -->
         <!-- Common section -->
-        <section class="commonSection callToAction_3">
+        {{-- <section class="commonSection callToAction_3">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-8">
@@ -452,7 +447,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Common section -->
         <!-- Common section -->
         <section class="commonSection latestPostSec">
@@ -532,7 +527,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <p>Copyright <i class="icofont-copyright"></i> 2019; All Right Reserved</p>
+                        <p>Copyright <i class="icofont-copyright"></i> 2021 IPB UNIVERSITY. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

@@ -48,11 +48,19 @@ body {
 .logo{
     position: relative;
     text-align: left;
+    font-size: 30px;
+    color: #FFFFFF;
 }
-.logo img{
+.logo:hover {
+    color: color: #5DEC96;
+}
+.logo span {
+    color: #5DEC96;
+}
+/* .logo img{
     max-width: 100%;
     height: auto;
-}
+} */
 .mainmenu{
     position: relative;
 }
