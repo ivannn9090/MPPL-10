@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Payloan - Banking & Business Loan HTML5 Responsive Template</title>
+        <title>Landing Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Include All CSS -->
@@ -24,8 +24,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     </head>
-    <body>
-        <!-- Preloading -->
+    <body style="
+    background-color: #1B2124; ">
+        <!-- loading -->
         <div class="preloader text-center">
             <div class="la-ball-circus la-2x">
                 <div></div>
@@ -35,7 +36,6 @@
                 <div></div>
             </div>
         </div>
-        <!-- Preloading -->
 
         <!-- Header section -->
         <header class="header_1" id="header">
@@ -43,77 +43,42 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            <a href="#">Minjamin <span >.</span></a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <nav class="mainmenu MenuInRight text-right">
-                            <a href="javascript:void(0);" class="mobilemenu d-md-none d-lg-none d-xl-none">
+                            {{-- <a href="javascript:void(0);" class="mobilemenu d-md-none d-lg-none d-xl-none">
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                            </a>
+                            </a> --}}
                             <ul>
                                 <li class="menu-item-has-children">
-                                    <a href="#">home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index2.html">Home 02</a></li>
-                                    </ul>
+                                    <a href="#">Beranda</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services.html">Service 01</a></li>
-                                        <li><a href="services2.html">Service 02</a></li>
-                                        <li><a href="service_details.html">Service Details</a></li>
-                                    </ul>
+                                    <a href="#">Tentang</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="faq.html">Faq Page</a></li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Portfolio</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="portfolio_detail.html">Portfolio Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Testimonial</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="testimonial.html">Testimonial 01</a></li>
-                                                <li><a href="testimonial2.html">Testimonial 02</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="team.html">Team Member</a></li>
-                                        <li><a href="application_form.html">Application Form</a></li>
-                                        <li><a href="loan_calculation.html">Loan Calculation</a></li>
-                                    </ul>
+                                    <a href="#">Cara Kerja</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Page</a></li>
-                                        <li><a href="single_blog.html">Blog Details</a></li>
-                                    </ul>
+                                    <a href="#">Bantuan</a>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-lg-2 col-md-2 hidden-xs">
                         <div class="navigator_btn btn_bg text-right">
-                            <a class="common_btn" href="#">Apply Now</a>
+                            <a class="common_btn" href="#">Masuk</a>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Header section -->
+
        <!-- Payloan_header_bg section -->
         <section class="payloan_header_bg header_bg_2">
             <div class="container">

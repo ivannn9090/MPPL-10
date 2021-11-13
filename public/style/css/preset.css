@@ -68,7 +68,7 @@ input[type="number"] {
 }
 
 a{
-    color: #222222;
+    color: white;
     text-decoration: none;
     transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
