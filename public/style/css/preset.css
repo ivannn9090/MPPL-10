@@ -79,7 +79,7 @@ a:hover, a:focus{
     outline: 0;
 }
 a:focus{
-    color: #fff;
+    color: #ffffff;
 }
 ul li{
     margin: 0;
@@ -107,8 +107,8 @@ ul li{
     border: none;
     font-size: 17px;
     font-weight: 700;
-    background: #8180e0;
-    color: #fff;
+    background: #1B2124;
+    color: #5DEC96;
     height: 55px;
     text-align: center;
     padding: 20px 46.1px;
@@ -116,7 +116,8 @@ ul li{
     line-height: .8;
     letter-spacing: 0;
     position: relative;
-    border-radius: 3px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 2px #ffffff73, 2px 2px 1px #000000;
     z-index: 1;
     cursor: pointer;
     outline: none;
@@ -127,7 +128,7 @@ ul li{
     -o-transition: all 0.4s ease-out;
 }
 .common_btn::after {
-    background: #222222;
+    background: #1B2124;
     border-radius: 3px;
     bottom: 0;
     content: "";
@@ -147,7 +148,7 @@ ul li{
     width: 100%;
     z-index: -1;
 }
-.common_btn:hover::after {
+/* .common_btn:hover::after {
     transform: scale(1);
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
@@ -156,7 +157,7 @@ ul li{
 }
 .common_btn:hover{
     color: #fff;
-}
+} */
 
 /*------------------------------------------------------------------------------
 / 5. Section Settings

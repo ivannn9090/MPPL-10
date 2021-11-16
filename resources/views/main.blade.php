@@ -48,11 +48,6 @@
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <nav class="mainmenu MenuInRight text-right">
-                            {{-- <a href="javascript:void(0);" class="mobilemenu d-md-none d-lg-none d-xl-none">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </a> --}}
                             <ul>
                                 <li class="menu-item-has-children">
                                     <a href="#">Beranda</a>
@@ -79,8 +74,8 @@
         </header>
         <!-- Header section -->
 
-       <!-- Payloan_header_bg section -->
-        <section class="payloan_header_bg header_bg_2">
+       <!-- section satu -->
+        <section class="payloan_header_bg header_bg_1">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -90,66 +85,20 @@
                                 <p>Sekarang pinjaman untuk mahasiswa dapat berjalan dengan cepat. Dapatkan pinjaman terpercaya untuk biaya pendidikan anda.</p>
                             </div>
                             <div class="welcome_button">
-                                <a href="#" class="common_btn">Contact Us</a>
+                                <a href="#" class="common_btn">Ajukan</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="header_img">
-                            <img src="images/slider/5.png" alt="">
+                            <img src="style/images/home1.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Payloan_header_bg section -->
-        <!-- Common section -->
-        <section class="commonSection homeService_2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="sec_title">Kenapa Harus Pinjam di Jasa Kami</h2>
-                        {{-- <p class="sec_desc">
-                            Simply import the sample files we ship with the theme and the core structure for your site is already<br>
-                            mind that even if you don’t use the demo content, you’ll be much better off than with most other
-                        </p> --}}
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="singleService_4">
-                            <i class="flaticon-money"></i>
-                            <h1>9.35%</h1>
-                            <div class="clearfix"></div>
-                            <h4>Personal Loan</h4>
-                            <p>Stay turned the world theme better finance & business.</p>
-                            <h5>20 months installment</h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="singleService_4">
-                            <i class="flaticon-mortgage-loan"></i>
-                            <h1>10.2%</h1>
-                            <div class="clearfix"></div>
-                            <h4>Business Loan</h4>
-                            <p>Stay turned the world theme better finance & business.</p>
-                            <h5>20 months installment</h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="singleService_4">
-                            <i class="flaticon-loan-1"></i>
-                            <h1>28.6%</h1>
-                            <div class="clearfix"></div>
-                            <h4>Education Loan</h4>
-                            <p>Stay turned the world theme better finance & business.</p>
-                            <h5>20 months installment</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Common section -->
+        <!-- section satu-->
+
         <!-- Common section -->
         <section class="commonSection callToAction">
             <div class="container">
@@ -157,7 +106,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="tw-stretch-element-inside-column">
                             <div class="callImage">
-                                <img src="images/home/3.png" alt=""/>
+                                <img src="style/images/home2.png" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -165,20 +114,64 @@
                         <div class="serviceArea">
                             {{-- <h3>Manager will contact you to clear the details.</h3> --}}
                             <p>
-                                Minjemin merupakan aplikasi berbasis web yang disediakan untuk 
-                                mahasiswa dalam rangka untuk memudahkan 
+                                Minjemin merupakan aplikasi berbasis web yang disediakan untuk mahasiswa dalam rangka untuk memudahkan mahasiswa dalam peminjaman uang. Aplikasi ini menjalankan transaksi secara online, yang membuat mahasiswa tidak perlu mengantri lama di bank untuk melakukan peminjaman. 
                             </p>
-                            <p>
-                                The core structure for your site already mind that and
-                                even if you don’t use the demo content.
-                            </p>
-                            <a href="#" class="common_btn">Call Us Now</a>
+                            <a href="#" class="common_btn">Detail</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Common section -->
+
+                <!-- Common section -->
+                <section class="commonSection homeService_2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h2 class="sec_title">Kenapa Harus Pinjam di Jasa Kami</h2>
+                                {{-- <p class="sec_desc">
+                                    Simply import the sample files we ship with the theme and the core structure for your site is already<br>
+                                    mind that even if you don’t use the demo content, you’ll be much better off than with most other
+                                </p> --}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="singleService_4">
+                                    <i class="flaticon-money"></i>
+                                    <h1>9.35%</h1>
+                                    <div class="clearfix"></div>
+                                    <h4>Personal Loan</h4>
+                                    <p>Stay turned the world theme better finance & business.</p>
+                                    <h5>20 months installment</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="singleService_4">
+                                    <i class="flaticon-mortgage-loan"></i>
+                                    <h1>10.2%</h1>
+                                    <div class="clearfix"></div>
+                                    <h4>Business Loan</h4>
+                                    <p>Stay turned the world theme better finance & business.</p>
+                                    <h5>20 months installment</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="singleService_4">
+                                    <i class="flaticon-loan-1"></i>
+                                    <h1>28.6%</h1>
+                                    <div class="clearfix"></div>
+                                    <h4>Education Loan</h4>
+                                    <p>Stay turned the world theme better finance & business.</p>
+                                    <h5>20 months installment</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Common section -->
+
         <!-- Common section -->
         <section class="commonSection applicatioProces_2">
             <div class="container">
@@ -265,11 +258,11 @@
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra faucibus morbi netus risus, purus mauris, purus bibendum. Urna dolor, ultrices velit odio diam enim arcu, eget nisl. Blandit mauris sodales dui, sed a. Quis.
                             </p>
-                            {{-- <h5>
+                            <h5>
                                 One of your favorite are images across the enter
                                 your site lets you upload orem choose an image
                                 and instantly shows the changes.
-                            </h5> --}}
+                            </h5>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
