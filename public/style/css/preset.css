@@ -162,11 +162,11 @@ ul li{
 /*------------------------------------------------------------------------------
 / 5. Section Settings
 ------------------------------------------------------------------------------*/
-.commonSection{
+.jumbotron{
     padding: 85px 0 96px;
     position: relative;
 }
-.commonSection .container{
+.jumbotron .container{
     position: relative;
     z-index: 2;
 }

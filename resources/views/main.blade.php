@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-lg-2 col-md-2 hidden-xs">
                         <div class="navigator_btn btn_bg text-right">
-                            <a class="common_btn" href="#">Masuk</a>
+                            <a class="common_btn" href="/login">Masuk</a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
         <!-- Header section -->
 
        <!-- section satu -->
-        <section class="payloan_header_bg header_bg_1">
+        <section class="beranda header_bg_1">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -100,7 +100,7 @@
         <!-- section satu-->
 
         <!-- Tentang -->
-        <section class="commonSection callToAction">
+        <section class="tentang callToAction">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -130,7 +130,7 @@
         <!-- Tentang -->
 
                 <!-- Common section -->
-                <section class="commonSection homeService_2">
+                <section class="tentang homeService_2">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center">
@@ -194,16 +194,6 @@
         
         <!-- cara kerja -->
         <section class="commonSection applicatioProces_2">
-            {{-- <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="sec_title">Fast and very easy<br> application process here</h2>
-                        <p class="sec_desc">
-                            Simply import the sample files we ship with the theme and the core structure for your site is already<br>
-                            mind that even if you don’t use the demo content, you’ll be much better off than with most other
-                        </p>
-                    </div>
-                </div> --}}
                 <div class="service_border">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">

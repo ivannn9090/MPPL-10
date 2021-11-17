@@ -37,7 +37,7 @@ body {
     font-family : poppins;
 }
 .header_1{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 25px;
     width: 100%;
@@ -137,7 +137,7 @@ body {
     font-family: fontAwesome;
     font-size: 12px;
     line-height: 28px;
-    color: #222;
+    color: #000000;
     transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
     -moz-transition: all ease 400ms;
@@ -198,9 +198,6 @@ body {
 .menu_white .mainmenu ul li a:hover{
     color: #5DEC96;
 }
-.menu_white .mainmenu ul li a{
-    color: #ffffff;
-}
 .menu_white .mainmenu.MenuInRight ul li:last-child{
     padding-right: 0;
 }
@@ -216,7 +213,7 @@ body {
     color: #fff;
 }
 .fixedHeader {
-    background: #fff;
+    background: #1B2124;
     padding: 15px 0;
     left: 0;
     position: fixed;
@@ -267,7 +264,7 @@ body {
 .bannerTitle p{
     margin: 0;
 }
-.payloan_header_bg{
+.beranda{
     overflow-x: hidden;
 }
 .header_bg_1{
@@ -2184,10 +2181,11 @@ body {
     padding-left: 80px;
     /* padding-top: 142px; */
     position: relative;
+    color: #ffffff;
 }
 .serviceArea h3{
     font-size: 35px;
-    /* line-height: 53px; */
+    color: #ffffff;
     font-weight: 900;
     margin: 0 0 27px;
 }
@@ -2749,33 +2747,33 @@ body {
 .lastBox .front .bg_number{
     margin-bottom: 9px;
 }
-.callToAction_2{
+.callToAction{
     padding: 10px 0 102px;
 }
-.callToAction_2 .serviceArea{
+.callToAction .serviceArea{
     padding-left: 80px;
     /* padding-right: 150px; */
     padding-top: 244px;
 }
-.callToAction_2 .serviceArea h3{
+.callToAction .serviceArea h3{
     color: #ffffff;
     margin-bottom: 32px;
 }
-.callToAction_2 .serviceArea p{
+.callToAction .serviceArea p{
     color: #959595;
     line-height: 32px;
     margin-bottom: 22px;
     text-align: justify;
 
 }
-.callToAction_2 .serviceArea h5{
+.callToAction .serviceArea h5{
     color: #383c5e;
     font-size: 20px;
     font-weight: 700;
     line-height: 35px;
     margin-bottom: 0;
 }
-.callToAction_2 .serviceArea a.common_btn{
+/* .callToAction .serviceArea a.common_btn{
     -webkit-box-shadow: 0px 0px 25px 0 rgba(46, 55, 136, 0.30);
     -moz-box-shadow: 0px 0px 25px 0 rgba(46, 55, 136, 0.30);
     box-shadow: 0px 0px 25px 0 rgba(46, 55, 136, 0.30);
@@ -2785,40 +2783,40 @@ body {
     height: 55px;
     padding: 21px 35.5px;
     margin-top: 25px;
-}
+} */
 .callImage img{
     margin-left : 120px;
     margin-top: 25px;
     width: 500px;
     /* height: auto; */
 }
-.callToAction_3{
-    background: url(../images/bg/14.png) no-repeat center top;
+.callToAction{
+    /* background: url(../images/bg/14.png) no-repeat center top; */
     padding: 90px 0 117px;
 }
-.callToAction_3 .sec_title{
+.callToAction .sec_title{
     color: #ffffff;
     font-size: 40px;
     line-height: 55px;
     font-weight: 900;
     margin: 0;
 }
-.callToAction_3 a.common_btn{
+.callToAction a.common_btn{
     -webkit-box-shadow: 0px 0px 34px 0 rgba(46, 55, 136, 0.49);
     -moz-box-shadow: 0px 0px 34px 0 rgba(46, 55, 136, 0.49);
     box-shadow: 0px 0px 34px 0 rgba(46, 55, 136, 0.49);
     background: #fff;
-    color: #383c5e;
+    /* color: #383c5e; */
     height: 65px;
     padding: 26px 59.5px;
     margin-top: 53px;
 }
-.callToAction_3 a.common_btn:hover{
-    color: #fff;
+.callToAction a.common_btn:hover{
+    color: #ffffff;
 }
-.latestPostSec{
+/* .latestPostSec{
     padding: 115px 0 119px;
-}
+} */
 .latestPostSec .sec_title {
     font-size: 35px;
     line-height: 52px;
