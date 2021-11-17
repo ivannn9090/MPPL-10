@@ -635,14 +635,14 @@ body {
 }
 .footer .about_widgets img{
     max-width: 100%;
-    height: auto;
+    height: 50px;
     margin-bottom: 52px;
 }
 .footer .about_widgets{
     margin-top: 21px;
 }
 .footer .about_widgets p{
-    font-size: 25px;
+    font-size: 18px;
     line-height: 40px;
     color: #5DEC96;
     margin: 0;
@@ -2182,12 +2182,12 @@ body {
 }
 .serviceArea{
     padding-left: 80px;
-    padding-top: 142px;
+    /* padding-top: 142px; */
     position: relative;
 }
 .serviceArea h3{
     font-size: 35px;
-    line-height: 53px;
+    /* line-height: 53px; */
     font-weight: 900;
     margin: 0 0 27px;
 }
@@ -2478,10 +2478,11 @@ body {
 .homeService_2{
     padding: 0 0 120px;
 }
-.homeService_2 .sec_title{
+.callToAction .sec_title, .homeService_2 .sec_title{
     font-size: 35px;
     line-height: 52px;
-    color: #383c5e;
+    margin-bottom: 50px;
+    color: #ffffff;
     font-weight: 900;
 }
 .homeService_2 .sec_desc{
@@ -2489,7 +2490,8 @@ body {
     line-height: 35px;
 }
 .singleService_4{
-    background: #fff;
+    text-align: center;
+    background: #32373A;
     width: 335px;
     padding: 62px 38px 53px;
     border-radius: 15px;
@@ -2498,15 +2500,16 @@ body {
     box-shadow: 0px 0px 18px 0px rgba(51, 60, 142, 0.10);
 }
 .singleService_4 i {
+    text-align: center;    
     font-size: 58px;
-    background: rgb(46, 55, 136);
-    background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%);
+    background: rgb(93, 236, 150);
+    /* background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%); */
     opacity: 1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 58px;
     display: inline-block;
-    float: left;
+    float: center;
     margin-bottom: 28px;
     margin-right: 35px;
 }
@@ -2521,13 +2524,13 @@ body {
 .singleService_4 h4 {
     font-size: 20px;
     line-height: 32px;
-    color: #383c5e;
+    color: #ffffff;
     font-weight: 800;
     margin: 0 0 12px;
 }
 .singleService_4 p{
     font-size: 19px;
-    color: #606378;
+    color: #959595;
     margin: 0 0 16px;
 }
 .singleService_4 h5 {
@@ -2538,8 +2541,8 @@ body {
     margin: 0 0 0;
 }
 .singleService_4:hover{
-    background: rgb(46, 55, 136);
-    background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%);
+    background: rgb(0, 186, 136);
+    /* background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%); */
     opacity: 1;
     transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
@@ -2680,8 +2683,8 @@ body {
     position: relative;
     padding: 59px 30px 55px 40px;
     border-radius: 20px;
-    background: rgb(46, 55, 136);
-    background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%);
+    background: rgb(0, 186, 136);
+    /* background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%); */
     opacity: 1;
 }
 .singleProcess_3:hover .front{
@@ -2711,8 +2714,8 @@ body {
 .singleProcess_3 .back .bg_number h1, .singleProcess_3 .front .bg_number h1 {
     font-size: 45px;
     line-height: 52px;
-    background: rgb(46, 55, 136);
-    background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%);
+    background: rgb(0, 186, 136);
+    /* background: linear-gradient(-38deg, rgba(129, 128, 224, 1) 0%, rgba(9, 9, 121, 1) 150%, rgba(46, 55, 136, 1) 100%); */
     opacity: 1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2722,7 +2725,7 @@ body {
 .singleProcess_3 .back h4, .singleProcess_3 .front h4 {
     font-size: 19px;
     line-height: 32px;
-    color: #222;
+    color: #ffffff;
     font-weight: 800;
     margin: 0 0 12px;
 }
@@ -2750,18 +2753,20 @@ body {
     padding: 10px 0 102px;
 }
 .callToAction_2 .serviceArea{
-    padding-left: 0;
-    padding-right: 90px;
+    padding-left: 80px;
+    /* padding-right: 150px; */
     padding-top: 244px;
 }
 .callToAction_2 .serviceArea h3{
-    color: #383c5e;
+    color: #ffffff;
     margin-bottom: 32px;
 }
 .callToAction_2 .serviceArea p{
-    color: #606378;
+    color: #959595;
     line-height: 32px;
     margin-bottom: 22px;
+    text-align: justify;
+
 }
 .callToAction_2 .serviceArea h5{
     color: #383c5e;
@@ -2782,8 +2787,10 @@ body {
     margin-top: 25px;
 }
 .callImage img{
-    width: 100%;
-    height: auto;
+    margin-left : 120px;
+    margin-top: 25px;
+    width: 500px;
+    /* height: auto; */
 }
 .callToAction_3{
     background: url(../images/bg/14.png) no-repeat center top;
@@ -2873,7 +2880,7 @@ body {
     border-radius: 20px;
 }
 .footer_2{
-    background: #f3f3fa;
+    background: #000000;
     padding: 123px 0 130px;
 }
 .footer_2 .about_widgets{
@@ -2883,18 +2890,25 @@ body {
     margin-bottom: 43px;
 }
 .footer_2 .about_widgets p{
-    color: #383c5e;
+    color: #959595;
 }
 .footer_2 .links{
     position: relative;
-    padding-left: 60px;
+    padding-left: 10px;
 }
 .footer_2 .links h4{
     font-size: 22px;
-    color: #222222;
+    color: #ffffff;
     font-weight: 700;
     line-height: 32px;
     margin-bottom: 36px;
+}
+.footer_2 .links .icon ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer_2 .links .icon ul li a{
+    font-size: 35px;
 }
 .footer_2 .links ul{
     margin: 0;
@@ -2909,7 +2923,7 @@ body {
 .footer_2 .links ul li a{
     display: inline-block;
     font-weight: 400;
-    color: #606378;
+    color: #959595;
     font-size: 19px;
     line-height: 45px;
     margin: 0;
@@ -2949,12 +2963,15 @@ body {
     opacity: 1;
 }
 .copyright_2{
-    background: #2e3788;
+    background: #000000;
     padding: 16px 0 17px;
 }
 .copyright_2 p{
     color: #ffffff;
     font-weight: 700;
+}
+.copyright_2 p span{
+    color: #407BD4;
 }
 .teamProcess{
     padding: 0 0 123px;

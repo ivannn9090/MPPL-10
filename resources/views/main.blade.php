@@ -43,7 +43,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3">
                         <div class="logo">
-                            <a href="#">Minjamin<span>.</span></a>
+                            <a href="#"><img src="style/images/logo.png" alt=""/></a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
@@ -99,9 +99,14 @@
         </section>
         <!-- section satu-->
 
-        <!-- Common section -->
+        <!-- Tentang -->
         <section class="commonSection callToAction">
             <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="sec_title">Tentang</h2>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="tw-stretch-element-inside-column">
@@ -122,7 +127,7 @@
                 </div>
             </div>
         </section>
-        <!-- Common section -->
+        <!-- Tentang -->
 
                 <!-- Common section -->
                 <section class="commonSection homeService_2">
@@ -130,41 +135,31 @@
                         <div class="row">
                             <div class="col-lg-12 text-center">
                                 <h2 class="sec_title">Kenapa Harus Pinjam di Jasa Kami</h2>
-                                {{-- <p class="sec_desc">
-                                    Simply import the sample files we ship with the theme and the core structure for your site is already<br>
-                                    mind that even if you don’t use the demo content, you’ll be much better off than with most other
-                                </p> --}}
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="singleService_4">
                                     <i class="flaticon-money"></i>
-                                    <h1>9.35%</h1>
                                     <div class="clearfix"></div>
-                                    <h4>Personal Loan</h4>
-                                    <p>Stay turned the world theme better finance & business.</p>
-                                    <h5>20 months installment</h5>
+                                    <h4>Minjem Cicilan</h4>
+                                    <p>Pinjam uang hingga 20 juta tanpa jaminan apapun.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="singleService_4">
                                     <i class="flaticon-mortgage-loan"></i>
-                                    <h1>10.2%</h1>
                                     <div class="clearfix"></div>
-                                    <h4>Business Loan</h4>
-                                    <p>Stay turned the world theme better finance & business.</p>
-                                    <h5>20 months installment</h5>
+                                    <h4>Aman & Terpercaya</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="singleService_4">
                                     <i class="flaticon-loan-1"></i>
-                                    <h1>28.6%</h1>
                                     <div class="clearfix"></div>
-                                    <h4>Education Loan</h4>
-                                    <p>Stay turned the world theme better finance & business.</p>
-                                    <h5>20 months installment</h5>
+                                    <h4>Minjem Cepat</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,9 +167,34 @@
                 </section>
                 <!-- Common section -->
 
-        <!-- Common section -->
+                <!-- Common section -->
+                <section class="commonSection callToAction_2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="tw-stretch-element-inside-column">
+                                    <div class="callImage">
+                                        <img src="style/images/home3.png" alt=""/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="serviceArea">
+                                    <h3>Ajukan Pembiayaan Pendidikanmu.</h3>
+                                    <p>
+                                        Minjemin merupakan aplikasi berbasis web yang disediakan untuk mahasiswa dalam rangka untuk memudahkan mahasiswa dalam peminjaman uang. Aplikasi ini menjalankan transaksi secara online, yang membuat mahasiswa tidak perlu mengantri lama di bank untuk melakukan peminjaman. 
+                                    </p>
+                                    {{-- <a href="#" class="common_btn">Detail</a> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Common section -->
+        
+        <!-- cara kerja -->
         <section class="commonSection applicatioProces_2">
-            <div class="container">
+            {{-- <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="sec_title">Fast and very easy<br> application process here</h2>
@@ -183,7 +203,7 @@
                             mind that even if you don’t use the demo content, you’ll be much better off than with most other
                         </p>
                     </div>
-                </div>
+                </div> --}}
                 <div class="service_border">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
@@ -193,14 +213,14 @@
                                         <div class="bg_number">
                                             <h1>01</h1>
                                         </div>
-                                        <h4>Apply Bank Loan</h4>
+                                        <h4>Login</h4>
                                     </div>
                                     <div class="back">
                                         <div class="bg_number">
                                             <h1>01</h1>
                                         </div>
-                                        <h4>Apply Bank Loan</h4>
-                                        <p>We are provide best services and finaancial solution for you.</p>
+                                        <h4>Login</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus felis cras sagittis sit integer elementum.</p>
                                     </div>
                                 </div>
                             </div>
@@ -212,14 +232,14 @@
                                         <div class="bg_number">
                                             <h1>02</h1>
                                         </div>
-                                        <h4>Approved Bank Loan</h4>
+                                        <h4>Verifikasi KTM/KTP</h4>
                                     </div>
                                     <div class="back">
                                         <div class="bg_number">
                                             <h1>02</h1>
                                         </div>
-                                        <h4>Approved Bank Loan</h4>
-                                        <p>We are provide best services and finaancial solution for you.</p>
+                                        <h4>Verifikasi KTM/KTP</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus felis cras sagittis sit integer elementum. </p>
                                     </div>
                                 </div>
                             </div>
@@ -231,14 +251,14 @@
                                         <div class="bg_number">
                                             <h1>03</h1>
                                         </div>
-                                        <h4>Review Your Loan</h4>
+                                        <h4>Perjanjian</h4>
                                     </div>
                                     <div class="back">
                                         <div class="bg_number">
                                             <h1>03</h1>
                                         </div>
-                                        <h4>Review Your Loan</h4>
-                                        <p>We are provide best services and finaancial solution for you.</p>
+                                        <h4>Perjanjian</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus felis cras sagittis sit integer elementum. </p>
                                     </div>
                                 </div>
                             </div>
@@ -247,233 +267,23 @@
                 </div>
             </div>
         </section>
-        <!-- Common section -->
-        <!-- Common section -->
-        <section class="commonSection callToAction_2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="serviceArea">
-                            <h3>Ajukan Pembiayaan Pendidikanmu</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra faucibus morbi netus risus, purus mauris, purus bibendum. Urna dolor, ultrices velit odio diam enim arcu, eget nisl. Blandit mauris sodales dui, sed a. Quis.
-                            </p>
-                            <h5>
-                                One of your favorite are images across the enter
-                                your site lets you upload orem choose an image
-                                and instantly shows the changes.
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="tw-stretch-element-inside-column">
-                            <div class="callImage">
-                                <img src="images/home/4.png" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Common section -->
-        <!-- Common section -->
-        {{-- <section class="commonSection teamProcess">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="sec_title">Fast and very easy<br> application process here</h2>
-                        <p class="sec_desc">
-                            Simply import the sample files we ship with the theme and the core structure for your site is already<br>
-                            mind that even if you don’t use the demo content, you’ll be much better off than with most other
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="slider-nav">
-                            <li role="presentation"><img src="images/home/3.jpg" alt=""/></li>
-                            <li role="presentation"><img src="images/home/4.jpg" alt=""/></li>
-                            <li role="presentation"><img src="images/home/5.jpg" alt=""/></li>
-                            <li role="presentation"><img src="images/home/6.jpg" alt=""/></li>
-                            <li role="presentation"><img src="images/home/7.jpg" alt=""/></li>
-                        </ul>
-                        <div class="team_slider text-center">
-                            <div class="singleTM">
-                                <div class="teamDesc">
-                                    <img src="images/quote2.png" alt=""/>
-                                    <p>
-                                        Make a site look like the demo, so to make your start into the world of<br>
-                                        possible we have included the demo content from and our showcase site import<br>
-                                        the sample files we ship with the theme and the core structure for your site<br>
-                                        already built in mind that evene the demo content
-                                    </p>
-                                </div>
-                                <div class="detail_TM">
-                                    <h5>Sabrina Michele</h5>
-                                    <p>UI/UX Designer</p>
-                                    <div class="star-rating">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <span>
-                                            <i class="icofont-star"></i>
-                                            <i class="icofont-star"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="singleTM">
-                                <div class="teamDesc">
-                                    <img src="images/quote2.png" alt=""/>
-                                    <p>
-                                        Make a site look like the demo, so to make your start into the world of<br>
-                                        possible we have included the demo content from and our showcase site import<br>
-                                        the sample files we ship with the theme and the core structure for your site<br>
-                                        already built in mind that evene the demo content
-                                    </p>
-                                </div>
-                                <div class="detail_TM">
-                                    <h5>Sabrina Michele</h5>
-                                    <p>UI/UX Designer</p>
-                                    <div class="star-rating">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <span>
-                                            <i class="icofont-star"></i>
-                                            <i class="icofont-star"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="singleTM">
-                                <div class="teamDesc">
-                                    <img src="images/quote2.png" alt=""/>
-                                    <p>
-                                        Make a site look like the demo, so to make your start into the world of<br>
-                                        possible we have included the demo content from and our showcase site import<br>
-                                        the sample files we ship with the theme and the core structure for your site<br>
-                                        already built in mind that evene the demo content
-                                    </p>
-                                </div>
-                                <div class="detail_TM">
-                                    <h5>Sabrina Michele</h5>
-                                    <p>UI/UX Designer</p>
-                                    <div class="star-rating">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <span>
-                                            <i class="icofont-star"></i>
-                                            <i class="icofont-star"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="singleTM">
-                                <div class="teamDesc">
-                                    <img src="images/quote2.png" alt=""/>
-                                    <p>
-                                        Make a site look like the demo, so to make your start into the world of<br>
-                                        possible we have included the demo content from and our showcase site import<br>
-                                        the sample files we ship with the theme and the core structure for your site<br>
-                                        already built in mind that evene the demo content
-                                    </p>
-                                </div>
-                                <div class="detail_TM">
-                                    <h5>Sabrina Michele</h5>
-                                    <p>UI/UX Designer</p>
-                                    <div class="star-rating">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <span>
-                                            <i class="icofont-star"></i>
-                                            <i class="icofont-star"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="singleTM">
-                                <div class="teamDesc">
-                                    <img src="images/quote2.png" alt=""/>
-                                    <p>
-                                        Make a site look like the demo, so to make your start into the world of<br>
-                                        possible we have included the demo content from and our showcase site import<br>
-                                        the sample files we ship with the theme and the core structure for your site<br>
-                                        already built in mind that evene the demo content
-                                    </p>
-                                </div>
-                                <div class="detail_TM">
-                                    <h5>Sabrina Michele</h5>
-                                    <p>UI/UX Designer</p>
-                                    <div class="star-rating">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <span>
-                                            <i class="icofont-star"></i>
-                                            <i class="icofont-star"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- Common section -->
-        <!-- Common section -->
-        {{-- <section class="commonSection callToAction_3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-8">
-                        <h2 class="sec_title">
-                            We’re all about helping you
-                            reach your next financial goal
-                            and loan help.
-                        </h2>
-                    </div>
-                    <div class="col-lg-5 col-md-4 text-right">
-                        <a class="common_btn" href="#">Contact Now</a>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- Common section -->
+        <!-- cara kerja -->
+
+
+
         <!-- Common section -->
         <section class="commonSection latestPostSec">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="sec_title">News Post<br> Warm content of todays</h2>
+                        <h2 class="sec_title">F.A.Q</h2>
                         <p class="sec_desc">
                             Simply import the sample files we ship with the theme and the core structure for your site is already<br>
                             mind that even if you don’t use the demo content, you’ll be much better off than with most other
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="latestPost_2 mrRight_25">
-                            <div class="LPThumb overlay">
-                                <img src="images/home/1.jpg" alt=""/>
-                            </div>
-                            <p>22 December, 2019</p>
-                            <h3><a href="single_blog.html">Simply import the sample files weam ship and core structure mind content.</a></h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="latestPost_2 mrLeft_25">
-                            <div class="LPThumb overlay">
-                                <img src="images/home/2.jpg" alt=""/>
-                            </div>
-                            <p>22 December, 2019</p>
-                            <h3><a href="single_blog.html">Simply import the sample files weam ship and core structure mind content.</a></h3>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </section>
         <!-- Common section -->
@@ -483,49 +293,68 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <aside class="widget about_widgets">
-                            <img src="images/foo_logo.png" alt=""/>
-                            <p>88 694 895 684</p>
-                            <p>88 487 983 576</p>
-                            <p>loanplus@gmail.com</p>
+                            <a href="#"><img src="style/images/logo.png" alt=""/></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit sed hendrerit est congue aenean.</p>
                         </aside>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-2 col-md-6">
                         <aside class="widget links">
-                            <h4>Quick Links</h4>
+                            <h4>Tentang kami</h4>
                             <ul>
-                                <li><a href="#">How it Works</a></li>
-                                <li><a href="#">Guarantee</a></li>
-                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="#">Team</a></li>
+                                {{-- <li><a href="#">Security</a></li>
                                 <li><a href="#">Report Bug</a></li>
-                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Pricing</a></li> --}}
                             </ul>
                         </aside>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <aside class="widget subscribe_widgets">
-                            <h3>Subscribe our newsletter.</h3>
-                            <form action="#" method="post">
-                                <input type="email" placeholder="supportloan@gmail.com" name="email"/>
-                                <input type="text" placeholder="+88 00 *** *** ***" name="phone"/>
-                                <input type="submit" value="Subscribe now">
-                            </form>
+                    <div class="col-lg-2 col-md-6">
+                        <aside class="widget links">
+                            <h4>Bantuan</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Cara kerja</a></li>
+                                <li><a href="#">Pengajuan</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <aside class="widget links">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li><a href="#">License</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <aside class="widget links">
+                            <h4>Hubungi Kami</h4>
+                            <div class="icon">
+                                <ul>
+                                    <li><a href="#" class="fa fa-github"></a></li>
+                                    <li><a href="#" class="fa fa-facebook"></a></li>
+                                    <li><a href="#" class="fa fa-instagram"></a></li>
+                                </ul>
+                            </div>
                         </aside>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- footer section -->
-        <!-- Copyright section -->
+        <!-- Copyright -->
         <section class="copyright copyright_2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <p>Copyright <i class="icofont-copyright"></i> 2021 IPB UNIVERSITY. All Rights Reserved.</p>
+                        <p>Copyright &copy; 2021 <span>IPB UNIVERSITY.</span> All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Copyright section -->
+        <!-- Copyright -->
         <!-- Include All JS -->
         <script src="/style/js/jquery.js"></script>
         <script src="/style/js/bootstrap.min.js"></script>
