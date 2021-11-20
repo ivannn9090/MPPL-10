@@ -9,7 +9,9 @@
 
     {{-- template bootstrap --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
     <link type="text/css" href="assets/css/vendor-morris.css" rel="stylesheet">
     <link type="text/css" href="assets/css/vendor-bootstrap-datepicker.css" rel="stylesheet">
@@ -52,34 +54,10 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="nav-item dropdown nav-language d-flex align-items-center">
-                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-          EN
-        </a>
-                                        <div class="dropdown-menu dropdown-menu-right ">
-                                            <ul class="list-unstyled">
-                                                <li>
-                                                    <a href="account.html" class="dropdown-item active">
-                <img src="http://flags.fmcdn.net/data/flags/w1160/us.png" style="width: 25px; vertical-align: middle" alt="English"> English
-              </a>
-                                                </li>
-                                                <li>
-                                                    <a href="account.html" class="dropdown-item">
-                <img src="http://flags.fmcdn.net/data/flags/w1160/fr.png" style="width: 25px; vertical-align: middle" alt="French"> French
-              </a>
-                                                </li>
-                                                <li>
-                                                    <a href="account.html" class="dropdown-item">
-                <img src="http://flags.fmcdn.net/data/flags/w1160/de.png" style="width: 25px; vertical-align: middle" alt="English"> German
-              </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
                                     <li class="nav-item dropdown notifications d-flex align-self-center align-items-center" id="navbarNotifications">
                                         <a href="#" class="nav-link dropdown-toggle notifications--active" data-toggle="dropdown" aria-expanded="false">
-          <i class="material-icons align-middle">notifications</i>
-        </a>
+                                        <i class="material-icons align-middle">notifications</i>
+                                        </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationsDropdown" id="notificationsDropdown">
                                             <ul class="nav nav-tabs-notifications" id="notifications-ul" role="tablist">
                                                 <li class="nav-item">
@@ -731,7 +709,7 @@
         </div>
         <!-- // END drawer-layout__content -->
 
-        <!-- drawer -->
+        <!-- sidebar -->
         <div class="mdk-drawer js-mdk-drawer" id="default-drawer">
             <div class="mdk-drawer__content">
                 <div class="mdk-drawer__inner" data-simplebar data-simplebar-force-enabled="true">
@@ -739,59 +717,36 @@
                     <nav class="drawer  drawer--dark">
                         <div class="drawer-spacer">
                             <div class="media align-items-center">
-                                <a href="index.html" class="drawer-brand-circle mr-2">H</a>
                                 <div class="media-body">
-                                    <a href="index.html" class="h5 m-0 text-link">Hero Pro - Admin</a>
+                                    <a href="/" class="h5 m-0 text-link"><img src="style/images/logo.png" alt=""/></a>
                                 </div>
                             </div>
                         </div>
-                        <!-- HEADING -->
-                        <div class="py-2 drawer-heading">
-                            Dashboards
-                        </div>
+                        <!-- bikin garis line pembatas -->
+
                         <!-- DASHBOARDS MENU -->
                         <ul class="drawer-menu" id="dasboardMenu" data-children=".drawer-submenu">
                             <li class="drawer-menu-item active ">
                                 <a href="index.html">
                                     <i class="material-icons">poll</i>
-                                    <span class="drawer-menu-text"> Financial</span>
+                                    <span class="drawer-menu-text"> Dashboard</span>
                                 </a>
                             </li>
                             <li class="drawer-menu-item">
                                 <a href="projects.html">
                                     <i class="material-icons">dns</i>
-                                    <span class="drawer-menu-text"> Projects/Tickets</span>
-                                    <span class="badge badge-pill badge-success ml-1">4</span>
+                                    <span class="drawer-menu-text"> PPinjaman</span>
+                                    {{-- <span class="badge badge-pill badge-success ml-1">4</span> --}}
                                 </a>
                             </li>
                             <li class="drawer-menu-item ">
                                 <a href="retail.html">
                                     <i class="material-icons">store</i>
-                                    <span class="drawer-menu-text"> E-Commerce</span>
+                                    <span class="drawer-menu-text"> Akun</span>
                                 </a>
-                            {{-- </li>
-                            <li class="drawer-menu-item ">
-                                <a href="real-estate-grid.html">
-        <i class="material-icons">business</i>
-        <span class="drawer-menu-text"> Real Estate</span>
-      </a>
-                            </li>
-                            <li class="drawer-menu-item ">
-                                <a href="profile.html">
-        <i class="material-icons">pages</i>
-        <span class="drawer-menu-text"> Social</span>
-      </a>
-                            </li>
-                            <li class="drawer-menu-item ">
-                                <a href="analytics.html">
-        <i class="material-icons">pie_chart</i>
-        <span class="drawer-menu-text"> Analytics</span>
-      </a>
-                            </li>
-                        </ul> --}}
 
     </div>
-    <!-- // END drawer-layout -->
+    <!-- // END sidebar -->
 
 
 
