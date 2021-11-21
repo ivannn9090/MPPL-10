@@ -21,6 +21,8 @@
 
     <!-- App CSS -->
     <link type="text/css" href="assets/css/app.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/dashboard.css" rel="stylesheet">
+
     <link type="text/css" href="assets/css/app.rtl.css" rel="stylesheet">
 
     <!-- Simplebar -->
@@ -28,382 +30,47 @@
 </head>
 
 <body>
-    <div class="mdk-drawer-layout js-mdk-drawer-layout" data-fullbleed data-push data-responsive-width="992px" data-has-scrolling-region>
+    <div class="mdk-drawer-layout js-mdk-drawer-layout" data-fullbleed data-push data-responsive-width="992px" style="background-color: #F3FFE4" data-has-scrolling-region>
 
         <div class="mdk-drawer-layout__content">
             <!-- header-layout -->
             <div class="mdk-header-layout js-mdk-header-layout  mdk-header--fixed  mdk-header-layout__content--scrollable">
                 <!-- header -->
-                <div class="mdk-header js-mdk-header bg-primary" data-fixed>
-                    <div class="mdk-header__content">
-
-                        <nav class="navbar navbar-expand-md bg-primary navbar-dark d-flex-none">
+                <div class="mdk-header js-mdk-header" data-fixed >
+                    <div class="mdk-header__content" >
+                        <nav class="navbar navbar-expand-md navbar-dark d-flex-none" style="background-color: #F3FFE4;">
                             <button class="btn btn-link text-white pl-0" type="button" data-toggle="sidebar">
-    <i class="material-icons align-middle md-36">short_text</i>
-  </button>
-
+                                <i class="material-icons align-middle md-36" style="color: black">short_text</i>
+                            </button>
                             <div class="collapse navbar-collapse" id="mainNavbar">
                                 <ul class="navbar-nav ml-auto align-items-center">
                                     <li class="nav-item nav-link">
-                                        <div class="form-group m-0">
-                                            <div class="input-group input-group--inline">
-                                                {{-- <div class="input-group-addon">
-                                                    <i class="material-icons">search</i>
-                                                </div>
-                                                <input type="text" class="form-control" name="search" placeholder="Search app.."> --}}
-                                            </div>
-                                        </div>
                                     </li>
                                     <li class="nav-item dropdown notifications d-flex align-self-center align-items-center" id="navbarNotifications">
                                         <a href="#" class="nav-link dropdown-toggle notifications--active" data-toggle="dropdown" aria-expanded="false">
-                                        <i class="material-icons align-middle">notifications</i>
+                                            <i class="material-icons align-middle" style="color: black">notifications</i>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationsDropdown" id="notificationsDropdown">
-                                            <ul class="nav nav-tabs-notifications" id="notifications-ul" role="tablist">
-                                                <li class="nav-item">
-                                                    <a class="nav-link active" id="notifications-tab" data-toggle="tab" href="#notifications" role="tab" aria-controls="notifications" aria-selected="true">Notifications</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" id="alerts-tab" data-toggle="tab" href="#alerts" role="tab" aria-controls="alerts" aria-selected="false">Alerts</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
-                                                </li>
-                                            </ul>
-                                            <div class="tab-content" id="notifications-tabs">
-                                                <div class="tab-pane fade show active" id="notifications" role="tabpanel" aria-labelledby="notifications-tab">
-                                                    <ul class="list-group list-group-flush">
-                                                        <li class="list-group-item">
-                                                            <div class="w-100">
-                                                                <a href="#">john</a> received a new quote</div>
-                                                            <div class="w-100 text-muted">4 secs ago</div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="w-100">
-                                                                <a href="#">karen</a> received a new quote</div>
-                                                            <div class="w-100 text-muted">25 mins ago</div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="w-100">
-                                                                <a href="#">jim</a> received a new quote</div>
-                                                            <div class="w-100 text-muted">7 hrs ago</div>
-                                                        </li>
-                                                        <li class="list-group-item text-right">
-                                                            <a href="#">
-                    <span class="align-middle">View All</span>
-                    <i class="material-icons md-18 align-middle">arrow_forward</i>
-                  </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="tab-pane fade" id="alerts" role="tabpanel" aria-labelledby="alerts-tab">
-                                                    <ul class="list-group list-group-flush">
-                                                        <li class="list-group-item">
-                                                            <div class="media align-items-center">
-                                                                <i class="material-icons align-middle mr-2 text-warning">
-                      info_outline
-                    </i>
-                                                                <div class="media-body">
-                                                                    <div class="w-100">
-                                                                        <a href="profile.html">john</a> received a new
-                                                                        <a href="#">quote</a>
-                                                                    </div>
-                                                                    <div class="w-100 text-muted">4 secs ago</div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="media align-items-center">
-                                                                <i class="material-icons align-middle mr-2 text-success">
-                      check_circle
-                    </i>
-                                                                <div class="media-body">
-                                                                    <div class="w-100">
-                                                                        <a href="profile.html">karen</a> completed a
-                                                                        <a href="#">task</a>
-                                                                    </div>
-                                                                    <div class="w-100 text-muted">25 mins ago</div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="media align-items-center">
-                                                                <i class="material-icons align-middle mr-2 text-danger">
-                      warning
-                    </i>
-                                                                <div class="media-body">
-                                                                    <div class="w-100">
-                                                                        <a href="profile.html">jim</a> removed a
-                                                                        <a href="#">task</a>
-                                                                    </div>
-                                                                    <div class="w-100 text-muted">7 hrs ago</div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item text-right">
-                                                            <a href="#">
-                    <span class="align-middle">View All</span>
-                    <i class="material-icons md-18 align-middle">arrow_forward</i>
-                  </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-                                                    <ul class="list-group list-group-flush">
-                                                        <li class="list-group-item">
-                                                            <div class="media align-items-center">
-                                                                <a href="profile.html">
-                      <img src="assets/images/avatars/person-1.jpg" class="img-fluid rounded-circle mr-2" width="35" alt="">
-                    </a>
-                                                                <div class="media-body">
-                                                                    <div class="w-100">I started that project we talked...</div>
-                                                                    <div class="w-100 text-muted">4 secs ago</div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="media align-items-center">
-                                                                <a href="profile.html">
-                      <img src="assets/images/avatars/person-11.jpg" class="img-fluid rounded-circle mr-2" width="35" alt="">
-                    </a>
-                                                                <div class="media-body">
-                                                                    <div class="w-100">Can we arrange a meeting?...</div>
-                                                                    <div class="w-100 text-muted">25 mins ago</div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="media align-items-center">
-                                                                <a href="profile.html">
-                      <img src="assets/images/avatars/person-12.jpg" class="img-fluid rounded-circle mr-2" width="35" alt="">
-                    </a>
-                                                                <div class="media-body">
-                                                                    <div class="w-100">We need to fix some bugs...</div>
-                                                                    <div class="w-100 text-muted">7 hrs ago</div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item text-right">
-                                                            <a href="#">
-                    <span class="align-middle">View All</span>
-                    <i class="material-icons md-18 align-middle">arrow_forward</i>
-                  </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
                                         </div>
                                     </li>
                                     <li class="nav-item nav-divider">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="sidebar" data-target="#user-drawer">
-          Frontted
-          <img src="https://pbs.twimg.com/profile_images/928893978266697728/3enwe0fO_400x400.jpg" class="img-fluid rounded-circle ml-1" width="35"
-            alt="">
-        </a>
+                                            <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="sidebar" data-target="#user-drawer" style="color: black">
+                                            Frontted
+                                            </a>
                                         </li>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                 </div>
 
+
                 <!-- content -->
                 <div class="mdk-header-layout__content top-navbar mdk-header-layout__content--scrollable h-100">
                     <!-- main content -->
-
-
-
-
                     <div class="container-fluid">
-                        <div class="row font-1">
-                            <div class="col-lg-4">
-                                <div class="card card-body flex-row align-items-center">
-                                    <h5 class="m-0"><i class="material-icons align-middle text-muted md-18">content_paste</i> Today</h5>
-                                    <div class="text-primary ml-auto">$12,319</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card card-body flex-row align-items-center">
-                                    <h5 class="m-0"> Last 7 Days</h5>
-                                    <div class="text-primary ml-auto">$35,129</div>
-                                    <i class="material-icons text-success md-18 ml-1">arrow_upward</i>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card card-body flex-row align-items-center">
-                                    <h5 class="m-0"> Past 30 Days</h5>
-                                    <div class="text-primary ml-auto">$142,545</div>
-                                    <i class="material-icons text-success md-18 ml-1">arrow_upward</i>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="row">
-                            <div class="col-lg-4">
-
-                                <div class="card card-body card-profile align-items-center justify-content-center">
-                                    <img src="assets/images/avatars/person-3.jpg" class="img-fluid rounded-circle mr-2 mb-1" width="100" alt="">
-                                    <p class="h3 mb-0">John Strehl</p>
-                                    <p>Top Seller (last month)</p>
-                                    <div class="text-center mb-2">
-                                        <span class="badge badge-warning mr-2 mb-1">JavaScript</span>
-                                        <span class="badge badge-primary mr-2 mb-1">Bootstrap</span>
-                                        <span class="badge badge-danger mr-2 mb-1">PhotoShop</span>
-                                        <span class="badge badge-info mr-2 mb-1">HTML</span>
-                                        <span class="badge badge-gray mr-2 mb-1">Rails</span>
-                                    </div>
-                                    <a href="profile.html" class="btn btn-white align-middle">
-              <i class="material-icons md-18 align-middle">account_box</i>
-              <span class="align-middle">View Details</span>
-            </a>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-header d-flex align-items-center">
-                                        <div class="card-title">
-                                            Top Earnings
-                                        </div>
-                                        <i class="material-icons ml-auto text-muted">local_atm</i>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-
-                                        <li class="list-group-item d-flex flex-row">
-                                            <img src="assets/images/avatars/person-1.jpg" alt="" class="rounded-circle mr-2" width="30" height="30">
-                                            <div class="media-body">
-                                                <span class="">Has earned</span>
-                                                <strong>$1,742.00</strong>
-                                                <div><small class="text-muted">5 minutes ago</small></div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item d-flex flex-row">
-                                            <img src="assets/images/avatars/person-2.jpg" alt="" class="rounded-circle mr-2" width="30" height="30">
-                                            <div class="media-body">
-                                                <span class="">Has earned</span>
-                                                <strong>$4,120.55</strong>
-                                                <div><small class="text-muted">14 minutes ago</small></div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item d-flex flex-row">
-                                            <img src="assets/images/avatars/person-3.jpg" alt="" class="rounded-circle mr-2" width="30" height="30">
-                                            <div class="media-body">
-                                                <span class="">Uploaded a new</span>
-                                                <strong>video</strong>
-                                                <div><small class="text-muted">32 minutes ago</small></div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item d-flex flex-row">
-                                            <img src="assets/images/avatars/person-4.jpg" alt="" class="rounded-circle mr-2" width="30" height="30">
-                                            <div class="media-body">
-                                                <span class="">Has earned</span>
-                                                <strong>$2,721.23</strong>
-                                                <div><small class="text-muted">3 hours ago</small></div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item d-flex flex-row">
-                                            <img src="assets/images/avatars/person-5.jpg" alt="" class="rounded-circle mr-2" width="30" height="30">
-                                            <div class="media-body">
-                                                <span class="">Uploaded a new</span>
-                                                <strong>video</strong>
-                                                <div><small class="text-muted">4 hours ago</small></div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-header d-flex align-items-center">
-                                        <div class="card-title">
-                                            Rankings
-                                        </div>
-                                        <i class="material-icons ml-auto text-muted">local_activity</i>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-
-                                        <li class="list-group-item">
-                                            <div class="media align-items-center">
-                                                <span class="lead mr-1">1.</span>
-                                                <img src="assets/images/avatars/person-5.jpg" class="img-fluid rounded-circle mr-2" width="30" alt="">
-                                                <div class="media-body lh-12">
-                                                    <a href="#">John Mix</a><br/>
-                                                    <small class="text-muted">54 done</small>
-                                                </div>
-                                                <div class="lead">
-                                                    <strong class="align-middle">98%</strong> <i class="material-icons md-18 align-middle text-success">arrow_upward</i>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item">
-                                            <div class="media align-items-center">
-                                                <span class="lead mr-1">2.</span>
-                                                <img src="assets/images/avatars/person-3.jpg" class="img-fluid rounded-circle mr-2" width="30" alt="">
-                                                <div class="media-body lh-12">
-                                                    <a href="#">Steven Short</a><br/>
-                                                    <small class="text-muted">11 done</small>
-                                                </div>
-                                                <div class="lead">
-                                                    <strong class="align-middle">33%</strong> <i class="material-icons md-18 align-middle text-danger">arrow_downward</i>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item">
-                                            <div class="media align-items-center">
-                                                <span class="lead mr-1">3.</span>
-                                                <img src="assets/images/avatars/person-6.jpg" class="img-fluid rounded-circle mr-2" width="30" alt="">
-                                                <div class="media-body lh-12">
-                                                    <a href="#">Mark Ups</a><br/>
-                                                    <small class="text-muted">1 done</small>
-                                                </div>
-                                                <div class="lead">
-                                                    <strong class="align-middle">8%</strong> <i class="material-icons md-18 align-middle text-danger">arrow_downward</i>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item">
-                                            <div class="media align-items-center">
-                                                <span class="lead mr-1">4.</span>
-                                                <img src="assets/images/avatars/person-2.jpg" class="img-fluid rounded-circle mr-2" width="30" alt="">
-                                                <div class="media-body lh-12">
-                                                    <a href="#">Tara Knows</a><br/>
-                                                    <small class="text-muted">35 done</small>
-                                                </div>
-                                                <div class="lead">
-                                                    <strong class="align-middle">86%</strong> <i class="material-icons md-18 align-middle text-success">arrow_upward</i>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="list-group-item">
-                                            <div class="media align-items-center">
-                                                <span class="lead mr-1">5.</span>
-                                                <img src="assets/images/avatars/person-1.jpg" class="img-fluid rounded-circle mr-2" width="30" alt="">
-                                                <div class="media-body lh-12">
-                                                    <a href="#">Lucas Kane</a><br/>
-                                                    <small class="text-muted">25 done</small>
-                                                </div>
-                                                <div class="lead">
-                                                    <strong class="align-middle">86%</strong> <i class="material-icons md-18 align-middle text-success">arrow_upward</i>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="card">
                             <div class="card-header">
                                 <div class="row align-items-center">
@@ -714,10 +381,13 @@
             <div class="mdk-drawer__content">
                 <div class="mdk-drawer__inner" data-simplebar data-simplebar-force-enabled="true">
 
-                    <nav class="drawer  drawer--dark">
+                    <nav class="drawer  drawer--dark" style="
+                        background: #1B2124;
+                        color: #ffffff;
+                    ">
                         <div class="drawer-spacer">
                             <div class="media align-items-center">
-                                <div class="media-body">
+                                <div class="media-body" style="margin-left: 50px">
                                     <a href="/" class="h5 m-0 text-link"><img src="style/images/logo.png" alt=""/></a>
                                 </div>
                             </div>
@@ -727,23 +397,26 @@
                         <!-- DASHBOARDS MENU -->
                         <ul class="drawer-menu" id="dasboardMenu" data-children=".drawer-submenu">
                             <li class="drawer-menu-item active ">
-                                <a href="index.html">
-                                    <i class="material-icons">poll</i>
+                                <a href="#" style="color: #ffffff">
+                                    <i class="material-icons" style="color: #ffffff">poll</i>
                                     <span class="drawer-menu-text"> Dashboard</span>
                                 </a>
                             </li>
                             <li class="drawer-menu-item">
-                                <a href="projects.html">
-                                    <i class="material-icons">dns</i>
-                                    <span class="drawer-menu-text"> PPinjaman</span>
+                                <a href="#" style="color: #ffffff">
+                                    <i class="material-icons" style="color: #ffffff">dns</i>
+                                    <span class="drawer-menu-text"> Pinjaman</span>
                                     {{-- <span class="badge badge-pill badge-success ml-1">4</span> --}}
                                 </a>
                             </li>
-                            <li class="drawer-menu-item ">
-                                <a href="retail.html">
-                                    <i class="material-icons">store</i>
+                            <li class="drawer-menu-item " >
+                                <a href="#" style="color: #ffffff">
+                                    <i class="material-icons" style="color: #ffffff">store</i>
                                     <span class="drawer-menu-text"> Akun</span>
                                 </a>
+                            </li>
+                        </ul>
+                    </nav>
 
     </div>
     <!-- // END sidebar -->
