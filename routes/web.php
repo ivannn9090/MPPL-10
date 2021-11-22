@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/dashboard', function () {
-    return view('home');
+    return view('dashboard.layout.main');
 });
 
 Route::get('/home', function () {
-    return view('dashboard');
+    return view('home');
 });
 
 

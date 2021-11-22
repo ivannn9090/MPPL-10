@@ -36,41 +36,13 @@
             <!-- header-layout -->
             <div class="mdk-header-layout js-mdk-header-layout  mdk-header--fixed  mdk-header-layout__content--scrollable">
                 <!-- header -->
-                <div class="mdk-header js-mdk-header" data-fixed >
-                    <div class="mdk-header__content" >
-                        <nav class="navbar navbar-expand-md navbar-dark d-flex-none" style="background-color: #F3FFE4;">
-                            <button class="btn btn-link text-white pl-0" type="button" data-toggle="sidebar">
-                                <i class="material-icons align-middle md-36" style="color: black">short_text</i>
-                            </button>
-                            <div class="collapse navbar-collapse" id="mainNavbar">
-                                <ul class="navbar-nav ml-auto align-items-center">
-                                    <li class="nav-item nav-link">
-                                    </li>
-                                    <li class="nav-item dropdown notifications d-flex align-self-center align-items-center" id="navbarNotifications">
-                                        <a href="#" class="nav-link dropdown-toggle notifications--active" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="material-icons align-middle" style="color: black">notifications</i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationsDropdown" id="notificationsDropdown">
-                                        </div>
-                                    </li>
-                                    <li class="nav-item nav-divider">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="sidebar" data-target="#user-drawer" style="color: black">
-                                            Frontted
-                                            </a>
-                                        </li>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+                @include('dashboard.layout.navbar')
 
-
-                <!-- content -->
+                <!-- isi konten -->
+                {{-- @yield('content') --}}
                 <div class="mdk-header-layout__content top-navbar mdk-header-layout__content--scrollable h-100">
                     <!-- main content -->
-
+            
                     <div class="container-fluid">
                         <h2>Dashboard</h2>
                             <h4>Ringkasan pinjaman</h4>
@@ -96,21 +68,21 @@
                                     </div>
                                 </div>
                             </div>
-
-                        <div class="card">
+            
                             <h4>Riwayat pengajuan pinjaman</h4>
+                        <div class="card">
                             <div class="table-responsive">
                                 <table class="table m-0">
                                     <thead>
-                                        <tr class="bg-fade">
-                                            <th style="width: 120px;">ID</th>
-                                            <th>pinjaman</th>
-                                            <th>Jumlah</th>
-                                            <th>Tgl Pinjam</th>
-                                            <th>Tgl kembali</th>
-                                            <th>Bunga</th>
-                                            <th>Total</th>
-                                            <th style="width: 100px">Status</th>
+                                        <tr class="bg-fade" style="background-color: #E6E6E6">
+                                            <th style="width: 120px; background-color: #E6E6E6">ID</th>
+                                            <th style="background-color: #e6e6e6">pinjaman</th>
+                                            <th style="background-color: #e6e6e6">Jumlah</th>
+                                            <th style="background-color: #e6e6e6">Tgl Pinjam</th>
+                                            <th style="background-color: #e6e6e6">Tgl kembali</th>
+                                            <th style="background-color: #e6e6e6">Bunga</th>
+                                            <th style="background-color: #e6e6e6">Total</th>
+                                            <th style="width: 100px; background-color: #e6e6e6">Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -120,9 +92,9 @@
                                                 <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Karen Smith</a>
                                                     <em class="text-muted ml-1">(Sales Representative)</em>
                                                 </div>
-
+            
                                             </td>
-
+            
                                             <td class="align-middle">
                                                 <a href="#">#1928</a>
                                             </td>
@@ -134,7 +106,7 @@
                                                 <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="material-icons md-18 align-middle">more_vert</i>
                                                 </a>
-
+            
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">
                                                         <i class="material-icons md-14 align-middle">assignment</i>
@@ -152,62 +124,20 @@
                                                 </div>
                                             </td>
                                         </tr>
-
+            
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
-
         </div>
-        <!-- // END drawer-layout__content -->
 
         <!-- sidebar -->
-        <div class="mdk-drawer js-mdk-drawer" id="default-drawer">
-            <div class="mdk-drawer__content">
-                <div class="mdk-drawer__inner" data-simplebar data-simplebar-force-enabled="true">
-
-                    <nav class="drawer  drawer--dark" style="
-                        background: #1B2124;
-                        color: #ffffff;
-                    ">
-                        <div class="drawer-spacer">
-                            <div class="media align-items-center">
-                                <div class="media-body" style="margin-left: 50px">
-                                    <a href="/" class="h5 m-0 text-link"><img src="style/images/logo.png" alt=""/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- bikin garis line pembatas -->
-
-                        <!-- DASHBOARDS MENU -->
-                        <ul class="drawer-menu" id="dasboardMenu" data-children=".drawer-submenu">
-                            <li class="drawer-menu-item active ">
-                                <a href="#" style="color: #ffffff">
-                                    <i class="material-icons" style="color: #ffffff">poll</i>
-                                    <span class="drawer-menu-text"> Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="drawer-menu-item">
-                                <a href="#" style="color: #ffffff">
-                                    <i class="material-icons" style="color: #ffffff">dns</i>
-                                    <span class="drawer-menu-text"> Pinjaman</span>
-                                    {{-- <span class="badge badge-pill badge-success ml-1">4</span> --}}
-                                </a>
-                            </li>
-                            <li class="drawer-menu-item " >
-                                <a href="#" style="color: #ffffff">
-                                    <i class="material-icons" style="color: #ffffff">store</i>
-                                    <span class="drawer-menu-text"> Akun</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-
+        @include('dashboard.layout.sidebar')
     </div>
-    <!-- // END sidebar -->
 
 
 
