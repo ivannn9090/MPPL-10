@@ -70,262 +70,50 @@
                 <!-- content -->
                 <div class="mdk-header-layout__content top-navbar mdk-header-layout__content--scrollable h-100">
                     <!-- main content -->
+
                     <div class="container-fluid">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-4">
-                                        <div class="card-title">Recent Orders</div>
+                        <h2>Dashboard</h2>
+                            <h4>Ringkasan pinjaman</h4>
+                            <div class="container mb-5">
+                                <div class="row justify-content-between">
+                                    <div class="col-3 bg-white shadow-lg mb-2 rounded p-lg-2 text-center">
+                                        <h5 style="color: #787878">Total Pinjaman</h5>
+                                        <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
+                                        <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
+                                        
                                     </div>
-                                    <div class="col-lg-8 col-md-12">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-6 d-flex justify-content-md-end sort-index">
-                                                <div class="dropdown mr-2">
-                                                    <button class="btn btn-white dropdown-toggle" type="button" id="sortOrdersDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sort By
-                  </button>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#">Date</a>
-                                                        <a class="dropdown-item" href="#">ID</a>
-                                                        <a class="dropdown-item" href="#">Name</a>
-                                                    </div>
-                                                </div>
-                                                <div class="dropdown mr-4">
-                                                    <button class="btn btn-white dropdown-toggle" type="button" id="filterOrdersDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Filter
-                  </button>
-                                                    <div class="dropdown-menu" aria-labelledby="filterOrdersDropdown">
-                                                        <a class="dropdown-item" href="#">Delivered</a>
-                                                        <a class="dropdown-item" href="#">Failed</a>
-                                                        <a class="dropdown-item" href="#">Pending</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 col-lg-6">
-                                                <form class="form-inline float-right">
-                                                    <div class="form-group mr-3">
-                                                        <label class="control-label mr-1">From:</label>
-                                                        <input type="text" class="datepicker form-control" value="10/24/2017">
-                                                    </div>
-                                                    <div class="form-group mb-0">
-                                                        <label class="control-label mr-1">To: </label>
-                                                        <input type="text" class="datepicker form-control" value="10/25/2017">
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
+                                    <div class="col-3 bg-white shadow-lg mb-2 rounded-xs p-lg-2 text-center">
+                                        <h5 style="color: #787878">Total Pinjaman</h5>
+                                        <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
+                                        <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
+                                        
+                                    </div>
+                                    <div class="col-3 bg-white shadow-lg mb-2 rounded-xs p-lg-2 text-center">
+                                        <h5 style="color: #787878">Total Pinjaman</h5>
+                                        <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
+                                        <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
+                                        
                                     </div>
                                 </div>
                             </div>
+
+                        <div class="card">
+                            <h4>Riwayat pengajuan pinjaman</h4>
                             <div class="table-responsive">
                                 <table class="table m-0">
                                     <thead>
                                         <tr class="bg-fade">
-                                            <th style="width: 120px;">Date</th>
-                                            <th>Name</th>
-                                            <th style="width: 100px;"># INV</th>
-                                            <th style="width: 140px;">Amount</th>
+                                            <th style="width: 120px;">ID</th>
+                                            <th>pinjaman</th>
+                                            <th>Jumlah</th>
+                                            <th>Tgl Pinjam</th>
+                                            <th>Tgl kembali</th>
+                                            <th>Bunga</th>
+                                            <th>Total</th>
                                             <th style="width: 100px">Status</th>
-                                            <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
-
-                                        <tr>
-                                            <td class="align-middle">23 Feb 2018</td>
-                                            <td class="align-middle">
-                                                <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Tara Knows</a>
-                                                    <em class="text-muted ml-1">(Sales Manager)</em>
-                                                </div>
-
-                                            </td>
-
-                                            <td class="align-middle">
-                                                <a href="#">#31982</a>
-                                            </td>
-                                            <td class="align-middle">&dollar;8650.99</td>
-                                            <td class="align-middle">
-                                                <div class="badge badge-warning">pending</div>
-                                            </td>
-                                            <td class="align-middle" style="width:40px">
-                                                <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons md-18 align-middle">more_vert</i>
-                </a>
-
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">assignment</i>
-                    <span class="align-middle">Manage</span>
-                  </a>
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">content_copy</i>
-                    <span class="align-middle">Duplicate</span>
-                  </a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item text-danger" href="#">
-                    <i class="material-icons md-14 align-middle">delete</i>
-                    <span class="align-middle">Delete</span>
-                  </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="align-middle">09 Feb 2018</td>
-                                            <td class="align-middle">
-                                                <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Karen Smith</a>
-                                                    <em class="text-muted ml-1">(Sales Representative)</em>
-                                                </div>
-
-                                            </td>
-
-                                            <td class="align-middle">
-                                                <a href="#">#11102</a>
-                                            </td>
-                                            <td class="align-middle">&dollar;3445.00</td>
-                                            <td class="align-middle">
-                                                <div class="badge badge-danger">failed</div>
-                                            </td>
-                                            <td class="align-middle" style="width:40px">
-                                                <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons md-18 align-middle">more_vert</i>
-                </a>
-
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">assignment</i>
-                    <span class="align-middle">Manage</span>
-                  </a>
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">content_copy</i>
-                    <span class="align-middle">Duplicate</span>
-                  </a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item text-danger" href="#">
-                    <i class="material-icons md-14 align-middle">delete</i>
-                    <span class="align-middle">Delete</span>
-                  </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="align-middle">08 Jan 2017</td>
-                                            <td class="align-middle">
-                                                <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Steven Short</a>
-                                                    <em class="text-muted ml-1">(Sales Manager)</em>
-                                                </div>
-
-                                            </td>
-
-                                            <td class="align-middle">
-                                                <a href="#">#11990</a>
-                                            </td>
-                                            <td class="align-middle">&dollar;2390.75</td>
-                                            <td class="align-middle">
-                                                <div class="badge badge-success">delivered</div>
-                                            </td>
-                                            <td class="align-middle" style="width:40px">
-                                                <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons md-18 align-middle">more_vert</i>
-                </a>
-
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">assignment</i>
-                    <span class="align-middle">Manage</span>
-                  </a>
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">content_copy</i>
-                    <span class="align-middle">Duplicate</span>
-                  </a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item text-danger" href="#">
-                    <i class="material-icons md-14 align-middle">delete</i>
-                    <span class="align-middle">Delete</span>
-                  </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="align-middle">18 Dec 2017</td>
-                                            <td class="align-middle">
-                                                <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Mark Ups</a>
-                                                    <em class="text-muted ml-1">(CEO / Co-Founder)</em>
-                                                </div>
-
-                                            </td>
-
-                                            <td class="align-middle">
-                                                <a href="#">#40915</a>
-                                            </td>
-                                            <td class="align-middle">&dollar;19231.50</td>
-                                            <td class="align-middle">
-                                                <div class="badge badge-success">delivered</div>
-                                            </td>
-                                            <td class="align-middle" style="width:40px">
-                                                <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons md-18 align-middle">more_vert</i>
-                </a>
-
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">assignment</i>
-                    <span class="align-middle">Manage</span>
-                  </a>
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">content_copy</i>
-                    <span class="align-middle">Duplicate</span>
-                  </a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item text-danger" href="#">
-                    <i class="material-icons md-14 align-middle">delete</i>
-                    <span class="align-middle">Delete</span>
-                  </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="align-middle">17 Nov 2017</td>
-                                            <td class="align-middle">
-                                                <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Steven Short</a>
-                                                    <em class="text-muted ml-1">(Sales Assistant Manager)</em>
-                                                </div>
-
-                                            </td>
-
-                                            <td class="align-middle">
-                                                <a href="#">#40912</a>
-                                            </td>
-                                            <td class="align-middle">&dollar;19231.50</td>
-                                            <td class="align-middle">
-                                                <div class="badge badge-success">delivered</div>
-                                            </td>
-                                            <td class="align-middle" style="width:40px">
-                                                <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons md-18 align-middle">more_vert</i>
-                </a>
-
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">assignment</i>
-                    <span class="align-middle">Manage</span>
-                  </a>
-                                                    <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">content_copy</i>
-                    <span class="align-middle">Duplicate</span>
-                  </a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item text-danger" href="#">
-                    <i class="material-icons md-14 align-middle">delete</i>
-                    <span class="align-middle">Delete</span>
-                  </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-
                                         <tr>
                                             <td class="align-middle">08 Oct 2017</td>
                                             <td class="align-middle">
@@ -344,23 +132,23 @@
                                             </td>
                                             <td class="align-middle" style="width:40px">
                                                 <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons md-18 align-middle">more_vert</i>
-                </a>
+                                                <i class="material-icons md-18 align-middle">more_vert</i>
+                                                </a>
 
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">assignment</i>
-                    <span class="align-middle">Manage</span>
-                  </a>
+                                                        <i class="material-icons md-14 align-middle">assignment</i>
+                                                        <span class="align-middle">Manage</span>
+                                                    </a>
                                                     <a class="dropdown-item" href="#">
-                    <i class="material-icons md-14 align-middle">content_copy</i>
-                    <span class="align-middle">Duplicate</span>
-                  </a>
+                                                        <i class="material-icons md-14 align-middle">content_copy</i>
+                                                        <span class="align-middle">Duplicate</span>
+                                                    </a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item text-danger" href="#">
-                    <i class="material-icons md-14 align-middle">delete</i>
-                    <span class="align-middle">Delete</span>
-                  </a>
+                                                        <i class="material-icons md-14 align-middle">delete</i>
+                                                        <span class="align-middle">Delete</span>
+                                                    </a>
                                                 </div>
                                             </td>
                                         </tr>
