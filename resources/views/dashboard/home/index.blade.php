@@ -6,8 +6,23 @@
         <!-- main content -->
 
         <div class="container-fluid">
-            <h2>Dashboard</h2>
-                <h4>Ringkasan pinjaman</h4>
+            <div class="row d-flex">
+                <div class="col-6">
+                    <h2>Dashboard</h2>
+                    <h4>Ringkasan pinjaman</h4>
+                </div>
+                <div class="col-3">
+                    <button type="submit" class="col-2 py-2 border-0 rounded-1" style="
+                    color: #4ABD78;
+                    background-color: #F3FFE4;
+                    box-shadow: -1px -1px 5px #ffffff73, 2px 2px 5px #000000;
+                    ">
+                    Ajukan
+                    </button>
+                </div>
+
+            </div>
+            
                 <div class="container mb-5">
                     <div class="row justify-content-between">
                         <div class="col-3 bg-white shadow-lg mb-2 rounded p-lg-2 text-center">
@@ -17,13 +32,13 @@
                             
                         </div>
                         <div class="col-3 bg-white shadow-lg mb-2 rounded-xs p-lg-2 text-center">
-                            <h5 style="color: #787878">Total Pinjaman</h5>
+                            <h5 style="color: #787878">Pinjaman Aktif</h5>
                             <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
                             <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
                             
                         </div>
                         <div class="col-3 bg-white shadow-lg mb-2 rounded-xs p-lg-2 text-center">
-                            <h5 style="color: #787878">Total Pinjaman</h5>
+                            <h5 style="color: #787878">Pinjaman lunas</h5>
                             <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
                             <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
                             

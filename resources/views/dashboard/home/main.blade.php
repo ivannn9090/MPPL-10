@@ -44,8 +44,25 @@
                     <!-- main content -->
             
                     <div class="container-fluid">
-                        <h2>Dashboard</h2>
-                            <h4>Ringkasan pinjaman</h4>
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-6">
+                                <h2>Dashboard</h2>
+                                <h4>Ringkasan pinjaman</h4>
+                            </div>
+                            <div class="col-3">
+
+                            </div>
+                            <div class="col-3 d-flex align-items-end flex-column">
+                                <button type="submit" class="mt-3 mr-5 px-4 py-2 border-0 rounded-1 fw-bold" style="
+                                color: #4ABD78;
+                                background-color: #F3FFE4;
+                                box-shadow: -1px -1px 5px #ffffff73, 2px 2px 5px #000000;
+                                ">
+                                Ajukan
+                                </button>
+                            </div>
+                        </div>
+
                             <div class="container mb-5">
                                 <div class="row justify-content-between">
                                     <div class="col-3 bg-white shadow-lg mb-2 rounded p-lg-2 text-center">
