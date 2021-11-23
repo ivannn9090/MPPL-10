@@ -22,20 +22,20 @@
                 <!-- DASHBOARDS MENU -->
                 <ul class="drawer-menu" id="dasboardMenu" data-children=".drawer-submenu">
                     <li class="drawer-menu-item active ">
-                        <a href="#" style="color: #ffffff">
+                        <a href="/dashboard" style="color: #ffffff">
                             <i class="material-icons" style="color: #ffffff">poll</i>
                             <span class="drawer-menu-text"> Dashboard</span>
                         </a>
                     </li>
                     <li class="drawer-menu-item">
-                        <a href="#" style="color: #ffffff">
+                        <a href="/pinjaman" style="color: #ffffff">
                             <i class="material-icons" style="color: #ffffff">dns</i>
                             <span class="drawer-menu-text"> Pinjaman</span>
                             {{-- <span class="badge badge-pill badge-success ml-1">4</span> --}}
                         </a>
                     </li>
                     <li class="drawer-menu-item " >
-                        <a href="#" style="color: #ffffff">
+                        <a href="/akun" style="color: #ffffff">
                             <i class="material-icons" style="color: #ffffff">store</i>
                             <span class="drawer-menu-text"> Akun</span>
                         </a>

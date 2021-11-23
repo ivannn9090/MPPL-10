@@ -14,7 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/dashboard', function () {
-    return view('dashboard.layout.main');
+    return view('dashboard.home.main');
+});
+Route::get('/pinjaman', function () {
+    return view('dashboard.pinjaman.pinjam');
+});
+Route::get('/akun', function () {
+    return view('dashboard.akun.data');
 });
 
 Route::get('/home', function () {
